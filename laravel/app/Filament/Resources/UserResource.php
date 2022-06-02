@@ -5,6 +5,7 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\UserResource\Pages;
 use App\Filament\Resources\UserResource\RelationManagers;
 use App\Models\User;
+use Ariaieboy\FilamentJalaliDatetimepicker\Forms\Components\JalaliDatePicker;
 use Filament\Forms;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
@@ -21,6 +22,7 @@ class UserResource extends Resource
     {
         return $form
             ->schema([
+                JalaliDatePicker::make('test'),
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
