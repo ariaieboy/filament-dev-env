@@ -68,6 +68,12 @@
             "php-http/discovery": true
         }
     },
+    "repositories": [
+        {
+            "url": "../packages/*",
+            "type": "path"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
