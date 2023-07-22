@@ -2,8 +2,10 @@
 
 ```git clone git@github.com:ariaieboy/filament-dev-env.git```
 
-then go to the laravel directory:
-```cd filament-dev-env/laravel```
+then go to the v2 directory if you want test your packages using filament v2:
+```cd filament-dev-env/v2```
+Or go to the v3 directory for filament v3 dev environment:
+```cd filament-dev-env/v3```
 
 ## install dependencies
 
