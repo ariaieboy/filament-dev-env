@@ -1,7 +1,7 @@
 version: '3'
 services:
     laravel.test:
-        image: ariaieboy/sail-runtime-image:8.2
+        image: ariaieboy/sail-runtime-image:8.2-20
         extra_hosts:
             - 'host.docker.internal:host-gateway'
         ports:
@@ -22,8 +22,6 @@ services:
             - mysql
     mysql:
         image: 'mysql/mysql-server:8.0'
-        ports:
-            - '${FORWARD_DB_PORT:-3306}:3306'
         environment:
             MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
             MYSQL_ROOT_HOST: '%'
