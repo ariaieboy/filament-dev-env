@@ -2,10 +2,19 @@
 
 ```git clone git@github.com:ariaieboy/filament-dev-env.git```
 
-then go to the v2 directory if you want test your packages using filament v2:
-```cd filament-dev-env/v2```
-Or go to the v3 directory for filament v3 dev environment:
-```cd filament-dev-env/v3```
+go to laravel directory:
+
+```cd filament-dev-env/laravel```
+
+copy the env file:
+
+``` cp .env.example .env ```
+
+## using the project
+
+You can use this project by local PHP installed on your machine or using Laravel Sail and docker.
+
+The steps below tell you how you can use this project using Laravel Sail and docker you can use the same steps and run the project using your Local PHP installation.
 
 ## install dependencies
 
@@ -36,6 +45,8 @@ or you can use command below if you want run it without shortcut:
 
 ## run migration
 
+By default, we use Sqlite database you can change this by editing the `.env` file and using any database you want.
+
 for first attempt u need to migrate the db using this commands :
 `sa migrate` if you have laravel-sail or
 `./vendor/bin/sail artisan migrate`
@@ -51,5 +62,5 @@ for first attempt u need to create user to access to filament using this command
 you can create your package and clone it in the packages directory then you can install it using this commands :
 
 ``` sc require yourname/your-package-name```
-if you dont have laravel-sail plugin you can use this command:
+if you don't have laravel-sail plugin you can use this command:
 ```./vendor/bin/sail composer require yourname/your-package-name```
