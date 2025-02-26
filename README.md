@@ -4,7 +4,7 @@
 
 go to laravel directory:
 
-```cd filament-dev-env/laravel```
+```cd filament-dev-env/l11```
 
 copy the env file:
 
