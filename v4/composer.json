@@ -13,18 +13,18 @@
     ],
     "require": {
         "php": "^8.2",
-        "filament/filament": "^4.0",
-        "laravel/framework": "^12.20",
-        "laravel/tinker": "^2.10.1"
+        "filament/filament": "^4.2.4",
+        "laravel/framework": "^12.40.2",
+        "laravel/tinker": "^2.10.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.24.1",
-        "laravel/pail": "^1.2.3",
-        "laravel/pint": "^1.23",
-        "laravel/sail": "^1.43.1",
+        "laravel/pail": "^1.2.4",
+        "laravel/pint": "^1.26",
+        "laravel/sail": "^1.48.1",
         "mockery/mockery": "^1.6.12",
-        "nunomaduro/collision": "^8.8.2",
-        "pestphp/pest": "^3.8.2",
+        "nunomaduro/collision": "^8.8.3",
+        "pestphp/pest": "^3.8.4",
         "pestphp/pest-plugin-laravel": "^3.2"
     },
     "autoload": {
