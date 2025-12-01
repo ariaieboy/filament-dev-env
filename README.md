@@ -4,7 +4,7 @@
 
 go to laravel directory:
 
-```cd filament-dev-env/l11```
+```cd filament-dev-env/v4```
 
 copy the env file:
 
@@ -18,10 +18,10 @@ The steps below tell you how you can use this project using Laravel Sail and doc
 
 ## install dependencies
 
-since this repo use [laravel sail](https://laravel.com/docs/9.x/sail) and docker we provide docker commands for
+Since this repo use [laravel sail](https://laravel.com/docs/9.x/sail) and docker we provide docker commands for
 installing and running the project.
 
-for installing composer u can use shortcut command below if u have zsh
+For installing composer u can use shortcut command below if u have zsh
 and [laravel-sail](https://github.com/ariaieboy/laravel-sail):
 `s cinit`
 or you can run the actual command :
@@ -32,7 +32,7 @@ or you can run the actual command :
     -v $(pwd):/var/www/html \
     -v $(pwd)/../packages/.:/var/www/packages \
     -w /var/www/html \
-    laravelsail/php82-composer:latest \
+    laravelsail/php84-composer:latest \
     composer install --ignore-platform-reqs
 ```
 
