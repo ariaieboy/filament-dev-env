@@ -14,19 +14,19 @@
     "require": {
         "php": "^8.2",
         "ariaieboy/filament-jalali": "dev-43-مشکل-در-نمایش-تقویم-بعد-از-آپدیت",
-        "filament/filament": "^5.0",
-        "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "filament/filament": "^5.10.3",
+        "laravel/framework": "^12.70.1",
+        "laravel/tinker": "^2.11.1"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.23",
-        "laravel/pail": "^1.2.2",
-        "laravel/pint": "^1.24",
-        "laravel/sail": "^1.41",
-        "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.6",
-        "pestphp/pest": "^4.3",
-        "pestphp/pest-plugin-laravel": "^4.0"
+        "fakerphp/faker": "^1.24.1",
+        "laravel/pail": "^1.2.7",
+        "laravel/pint": "^1.32.1",
+        "laravel/sail": "^1.69",
+        "mockery/mockery": "^1.6.15",
+        "nunomaduro/collision": "^8.9.5",
+        "pestphp/pest": "^4.7.8",
+        "pestphp/pest-plugin-laravel": "^4.1"
     },
     "autoload": {
         "psr-4": {
